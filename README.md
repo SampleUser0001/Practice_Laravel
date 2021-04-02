@@ -53,3 +53,14 @@ Route::get('/users', function () {
 ### URL
 
 [http://localhost/index](http://localhost/index)
+
+## クラスの宣言と使用
+
+### クラス作成
+
+[./practice-laravel/app/Sample/Sample.php](./practice-laravel/app/Sample/Sample.php)  
+※app配下にたくさんある。
+
+### 使用方法
+
+[./practice-laravel/resources/views/useclass.blade.php](./practice-laravel/resources/views/useclass.blade.php)

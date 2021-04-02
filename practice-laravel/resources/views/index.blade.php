@@ -6,5 +6,6 @@
 </head>
 <body>
   <h1>Index</h1>
+  <a href="useclass">クラスを使う</a><br>
 </body>
 </html>

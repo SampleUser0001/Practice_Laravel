@@ -22,3 +22,6 @@ Route::get('/users', function () {
 Route::get('/index', function () {
     return view('index'); 
 });
+Route::get('/useclass', function () {
+    return view('useclass'); 
+});
