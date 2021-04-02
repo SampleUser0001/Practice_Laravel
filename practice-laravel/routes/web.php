@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/users', function () {
     return 'Users!';
 });
+Route::get('/index', function () {
+    return view('index'); 
+});

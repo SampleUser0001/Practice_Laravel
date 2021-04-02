@@ -27,7 +27,7 @@ Route::get('/users', function () {
 - URL
   - [http://localhost/users](http://localhost/users)
 - クイックスタート
-  - [https://readouble.com/laravel/4.2/ja/quick.html](https://readouble.com/laravel/4.2/ja/quick.html)
+  - [https://laravel.com/docs/8.x](https://laravel.com/docs/8.x)
 
 ## ロケールの設定
 
@@ -39,3 +39,17 @@ Route::get('/users', function () {
     'fallback_locale' => 'ja',
     'faker_locale' => 'ja_JP',
 ```
+
+## ページを作成する
+
+### ルーティング
+
+[./practice-laravel/routes/web.php](./practice-laravel/routes/web.php)
+
+### ページ
+
+[./practice-laravel/resources/views/index.blade.php](./practice-laravel/resources/views/index.blade.php)
+
+### URL
+
+[http://localhost/index](http://localhost/index)
