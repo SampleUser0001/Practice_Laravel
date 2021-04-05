@@ -64,3 +64,21 @@ Route::get('/users', function () {
 ### 使用方法
 
 [./practice-laravel/resources/views/useclass.blade.php](./practice-laravel/resources/views/useclass.blade.php)
+
+## Cookieを扱う
+
+うまく読み込めていないが、とりあえず改ざんが発生しないことは確認した。[マニュアル](https://readouble.com/laravel/8.x/ja/requests.html)参照。
+
+### URL
+
+[http://localhost/readcookie](http://localhost/readcookie)
+
+### 参考
+
+- [Qiita:LaravelのMiddlewareでcookieがリクエストから取得できない場合にやること](https://qiita.com/pinekta/items/7ed2b73b90c7be8e5fe6)
+- [Qiita:【Laravel】クッキーを読み書き](https://qiita.com/yktk435/items/c1391037a7fa70110337)
+
+## 参考
+
+- [Laravel](https://laravel.com/)
+  - 公式

@@ -25,3 +25,6 @@ Route::get('/index', function () {
 Route::get('/useclass', function () {
     return view('useclass'); 
 });
+Route::get('/readcookie', function () {
+    return view('readcookie'); 
+});
