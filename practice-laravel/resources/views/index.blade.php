@@ -7,9 +7,8 @@
 <body>
   <h1>Index</h1>
   <a href="useclass">クラスを使う</a><br>
-  <a href="readcookie">Cookieを読み込む</a><br>
   <h2>requestを処理する</h2>
-  <a href="qiita/getRequestDate">Qiita版</a><br>
-  <a href="request-handling">requestを処理する</a><br>
+  <a href="qiita/getRequestDate">get requestを処理する</a><br>
+  <a href="readcookie">Cookieを読み込む</a><br>
 </body>
 </html>

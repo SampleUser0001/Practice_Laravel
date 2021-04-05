@@ -8,20 +8,23 @@
   <h1>request処理結果</h1>
   <h2>入力</h2>
   <form action="{{ url('qiita/getRequestDate') }}" method="get">
-    <div>a <input type="text" name="a" value="{{ old('a') }}"></div>
-    <div>b <input type="text" name="b" value="{{ old('b') }}"></div>
-    <div>c <input type="text" name="c" value="{{ old('c') }}"></div>
+    <div>key : a <input type="text" name="a" value="{{ old('a') }}"></div>
+    <div>key : b <input type="text" name="b" value="{{ old('b') }}"></div>
+    <div>key : c <input type="text" name="c" value="{{ old('c') }}"></div>
     <input type="submit" >
   </form>
 
   <hr>
   <h2>出力</h2>
 
+  <h3>key : a</h3>
   <div>get:{{$get}}</div>
   <div>input:{{$input}}</div>
   <div>request_get:{{$request_get}}</div>
   <div>query_get:{{$query_get}}</div>
   <div>query:{{$query}}</div>
+
+  <h3>Arrays</h3>
   <div>all:{{$all}}</div>
   <div>only:{{$only}}</div>
   <div>except:{{$except}}</div>

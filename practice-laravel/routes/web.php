@@ -34,13 +34,7 @@ Route::get('/useclass', function () {
     return view('useclass'); 
 });
 // Cookieを読み込んで見た。（うまく行っていない）
-Route::get('/readcookie', function () {
-    return view('readcookie'); 
-});
+Route::get('/readcookie', 'CookieHandling@readCookies');
 
 // requestを処理する。
 Route::get('/qiita/getRequestDate', 'SampleController@request1');
-
-Route::get('/request-handling', function(Request $request) {
-});
-Route::put('/user/{id}', [UserController::class, 'update']);

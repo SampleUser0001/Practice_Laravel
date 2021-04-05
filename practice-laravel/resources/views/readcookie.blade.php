@@ -7,18 +7,8 @@
 <body>
   <h1>Cookieを読み込む</h1>
   <h2>Laravel</h2>
-  <?php
-    use Illuminate\Support\Facades\Cookie;
-    
-    // Cookieの取得
-    $key = 'key';
-    echo 'key = ' . $key . '<br>';
-    if(Cookie::has($key)){
-      echo Cookie::get($key);
-    } else {
-      echo 'Cookie dosen\'t have ' . $key ;
-    }
-  ?>
+    <div>key : {{$key}}</div>
+    <div>value : {{$value}}</div>
   <hr>
   <h2>PHP</h2>
   <?php
