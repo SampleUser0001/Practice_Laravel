@@ -65,6 +65,18 @@ Route::get('/users', function () {
 
 [./practice-laravel/resources/views/useclass.blade.php](./practice-laravel/resources/views/useclass.blade.php)
 
+## GetRequestの処理
+
+### URL
+
+[http://localhost/qiita/getRequestDate](http://localhost/qiita/getRequestDate)
+
+### 参考
+
+- [Laravel-The Basics-Requests](https://laravel.com/docs/8.x/requests)
+- [Qiita:Laravelでリクエストデータを取得する](https://qiita.com/toontoon/items/eff426606ce0f194c345)
+- [Qiita:Laravel で Target class \[Controller\] does not exist.が出た時の対応](https://qiita.com/tsig/items/bef5e7611c69e93a573e)
+
 ## Cookieを扱う
 
 うまく読み込めていないが、とりあえず改ざんが発生しないことは確認した。[マニュアル](https://readouble.com/laravel/8.x/ja/requests.html)参照。
@@ -82,3 +94,4 @@ Route::get('/users', function () {
 
 - [Laravel](https://laravel.com/)
   - 公式
+- [Qiita:PHPフレームワークLaravelの使い方](https://qiita.com/toontoon/items/c4d0371e504c37f6576e)
