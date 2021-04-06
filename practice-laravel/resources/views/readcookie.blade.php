@@ -6,9 +6,17 @@
 </head>
 <body>
   <h1>Cookieを読み込む</h1>
+  <h2>日付</h2>
+  <?php
+    echo 'date : ' . now();
+  ?>
+  <hr>
   <h2>Laravel</h2>
     <div>key : {{$key}}</div>
     <div>value : {{$value}}</div>
+    <div></div>
+    <div>key2 : {{$key2}}</div>
+    <div>value2 : {{$value2}}</div>
   <hr>
   <h2>PHP</h2>
   <?php

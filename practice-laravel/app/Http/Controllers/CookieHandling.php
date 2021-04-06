@@ -18,10 +18,15 @@ class CookieHandling extends Controller
     {
       $value = Cookie::get($key);
     }
+    
+    $key2 = 'key2';
+    Cookie::queue($key2, now(), 10);
 
     $data = [
-      'key'   => $key,
-      'value' => $value
+      $key     => $key,
+      'value'   => $value,
+      $key2    => $key2,
+      'value2' => Cookie::get($key2)     
     ];
     
     return view('readcookie',$data);

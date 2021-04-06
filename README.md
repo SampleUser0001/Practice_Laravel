@@ -80,6 +80,13 @@ Route::get('/users', function () {
 ## Cookieを扱う
 
 うまく読み込めていないが、とりあえず改ざんが発生しないことは確認した。[マニュアル](https://readouble.com/laravel/8.x/ja/requests.html)参照。
+Laravelから読み書きするためには```app/Http/Middleware/EncryptCookies.php```にキーを記載する必要がある。
+
+### src
+
+- [./practice-laravel/app/Http/Middleware/EncryptCookies.php](./practice-laravel/app/Http/Middleware/EncryptCookies.php)
+- [./practice-laravel/app/Http/Controllers/CookieHandling.php](./practice-laravel/app/Http/Controllers/CookieHandling.php)
+- [./practice-laravel/resources/views/readcookie.blade.php](./practice-laravel/resources/views/readcookie.blade.php)
 
 ### URL
 
