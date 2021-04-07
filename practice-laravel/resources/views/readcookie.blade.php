@@ -12,6 +12,7 @@
   ?>
   <hr>
   <h2>Laravel</h2>
+    <div>agencyCode : {{$agencyCode}}</div>
     <div>key : {{$key}}</div>
     <div>value : {{$value}}</div>
     <div></div>

@@ -11,6 +11,10 @@ class CookieHandling extends Controller
   {
     $request->flash();
     
+    $cookie = $request->cookie();
+    // $agencyCode = $cookie['key'] ?? '??は多分nullだったらこの値を設定する';
+    $agencyCode = $cookie['key2'] ?? '??は多分nullだったらこの値を設定する';
+
     $key = 'key';
     $value = 'not found';
     
@@ -23,6 +27,7 @@ class CookieHandling extends Controller
     Cookie::queue($key2, now(), 10);
 
     $data = [
+      'agencyCode' => $agencyCode,
       $key     => $key,
       'value'   => $value,
       $key2    => $key2,
