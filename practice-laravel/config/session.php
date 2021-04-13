@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Str;
 
+// use Illuminate\Support\Facades\Log;
+// Log::info('SESSION_SECURE_COOKIE : ' . env('SESSION_SECURE_COOKIE'));
+
 return [
 
     /*
@@ -181,7 +184,10 @@ return [
     |
     */
 
-    'http_only' => true,
+    // 'http_only' => true,
+    'http_only' => false,
+    // 'httponly' => true,
+    // 'httponly' => false,
 
     /*
     |--------------------------------------------------------------------------

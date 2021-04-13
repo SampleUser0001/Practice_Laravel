@@ -10,5 +10,6 @@
   <h2>requestを処理する</h2>
   <a href="qiita/getRequestDate">get requestを処理する</a><br>
   <a href="readcookie">Cookieを読み込む</a><br>
+  <a href="setcookie">Cookieを書き込む(Laravel)</a><br>
 </body>
 </html>

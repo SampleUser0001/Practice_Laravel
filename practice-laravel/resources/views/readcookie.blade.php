@@ -27,5 +27,7 @@
     }
     echo '</ul>';
   ?>
+  <hr>
+  <a href="setcookie">Cookieを書き込む</a>
 </body>
 </html>

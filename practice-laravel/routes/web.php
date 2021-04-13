@@ -33,8 +33,15 @@ Route::get('/index', function () {
 Route::get('/useclass', function () {
     return view('useclass'); 
 });
-// Cookieを読み込んで見た。（うまく行っていない）
+// Cookieを読み込んで見た。
 Route::get('/readcookie', 'CookieHandling@readCookies');
+
+// Cookieの登録画面
+Route::get('/setcookie', function () {
+    return view('setcookie');
+});
+// Cookieの登録
+Route::post('/setcookie', 'CookieHandling@setCookie');
 
 // requestを処理する。
 Route::get('/qiita/getRequestDate', 'SampleController@request1');

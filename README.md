@@ -102,6 +102,21 @@ Laravelから読み書きするためには```app/Http/Middleware/EncryptCookies
 そもそもLaravelにRoute::traceメソッドが存在しない。
 デフォルトの設定でTRACEメソッドが実行できない。
 
+## Cookieのhttponly設定
+
+デフォルトの場合、httponlyはonになる。  
+一応変更できるはずなのだが・・・
+
+### 確認方法
+
+Chromeの場合、右クリック→検証→アプリケーションタブ→HTTPOnly欄を確認。
+
+### ログ
+
+``` sh 
+tail -f ./storage/logs/laravel.log 
+```
+
 ## 参考
 
 - [Laravel](https://laravel.com/)
