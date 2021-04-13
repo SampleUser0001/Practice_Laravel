@@ -97,6 +97,11 @@ Laravelから読み書きするためには```app/Http/Middleware/EncryptCookies
 - [Qiita:LaravelのMiddlewareでcookieがリクエストから取得できない場合にやること](https://qiita.com/pinekta/items/7ed2b73b90c7be8e5fe6)
 - [Qiita:【Laravel】クッキーを読み書き](https://qiita.com/yktk435/items/c1391037a7fa70110337)
 
+## Traceの禁止
+
+そもそもLaravelにRoute::traceメソッドが存在しない。
+デフォルトの設定でTRACEメソッドが実行できない。
+
 ## 参考
 
 - [Laravel](https://laravel.com/)

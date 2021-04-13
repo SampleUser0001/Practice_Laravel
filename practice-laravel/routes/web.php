@@ -38,3 +38,10 @@ Route::get('/readcookie', 'CookieHandling@readCookies');
 
 // requestを処理する。
 Route::get('/qiita/getRequestDate', 'SampleController@request1');
+
+// deny TRACE
+// そもそもLaravelのRouteにtraceなんてメソッドは存在しない。
+// 何だったらもとからtraceもたたけない。
+// Route::trace('/*',function(){
+//   return response()->view('denyMethod',405);
+// });
