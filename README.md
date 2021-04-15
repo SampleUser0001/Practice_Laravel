@@ -117,6 +117,15 @@ Chromeの場合、右クリック→検証→アプリケーションタブ→HT
 tail -f ./storage/logs/laravel.log 
 ```
 
+## セッションの生成
+
+- [PrintSessionController.php](./practice-laravel/app/Http/Controllers/PrintSessionController.php)
+- [printsession.blade.php](./practice-laravel/resources/views/printsession.blade.php)
+
+### 参考
+
+- [Laravelでセッションを使ってみる:Qiita](https://qiita.com/reflet/items/5638ab18fd7cededed17)
+
 ## 参考
 
 - [Laravel](https://laravel.com/)

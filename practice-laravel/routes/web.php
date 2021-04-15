@@ -52,3 +52,6 @@ Route::get('/qiita/getRequestDate', 'SampleController@request1');
 // Route::trace('/*',function(){
 //   return response()->view('denyMethod',405);
 // });
+
+// session管理を行う
+Route::get('/printsession' , 'PrintSessionController@sessionControll');
