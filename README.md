@@ -126,6 +126,11 @@ tail -f ./storage/logs/laravel.log
 
 - [Laravelでセッションを使ってみる:Qiita](https://qiita.com/reflet/items/5638ab18fd7cededed17)
 
+## Route::get->nameする
+
+- [./practice-laravel/routes/web.php](./practice-laravel/routes/web.php)
+- [./practice-laravel/resources/views/usename.blade.php](./practice-laravel/resources/views/usename.blade.php)
+
 ## 参考
 
 - [Laravel](https://laravel.com/)

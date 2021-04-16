@@ -55,3 +55,7 @@ Route::get('/qiita/getRequestDate', 'SampleController@request1');
 
 // session管理を行う
 Route::get('/printsession' , 'PrintSessionController@sessionControll');
+
+Route::get('/usename' , function(){
+    return view('usename');
+})->name('test');
