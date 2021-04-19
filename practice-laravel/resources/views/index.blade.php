@@ -13,7 +13,10 @@
   <a href="setcookie">Cookieを書き込む(Laravel)</a><br>
   <h2>Sessionを処理する</h2>
   <a href="printsession">Sessionを表示する</a><br>
+  <a href="createSessionConstructor">コンストラクタを使う</a><br>
   <h2>Route::get->name</h2>
   <a href="usename">Route::get->name</a><br>
+  <h2>DI</h2>
+  <a href="disample">DI Sample</a>
 </body>
 </html>

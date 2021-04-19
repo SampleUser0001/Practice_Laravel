@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
+use App\Sample\RollableDice;
+use App\Sample\Dice;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(RollableDice::class, function($app){
+            if (App::environment('testing')) {
+                return new LoadedDice();
+            }
+            return new Dice();
+        });
     }
 
     /**

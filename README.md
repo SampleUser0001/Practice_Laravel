@@ -131,6 +131,17 @@ tail -f ./storage/logs/laravel.log
 - [./practice-laravel/routes/web.php](./practice-laravel/routes/web.php)
 - [./practice-laravel/resources/views/usename.blade.php](./practice-laravel/resources/views/usename.blade.php)
 
+## コンストラクタインジェクション
+
+- [./practice-laravel/app/Sample/LoadedDice.php](./practice-laravel/app/Sample/LoadedDice.php)
+- [./practice-laravel/app/Sample/Dice.php](./practice-laravel/app/Sample/Dice.php)
+- [./practice-laravel/app/Sample/RollableDice.php](./practice-laravel/app/Sample/RollableDice.php)
+- [./practice-laravel/app/Providers/AppServiceProvider.php](./practice-laravel/app/Providers/AppServiceProvider.php)
+
+### 参考
+
+- [Laravelで始める依存性の注入（DI）:Qiita](https://qiita.com/harunbu/items/079ea728d2c9cf4f44d5)
+
 ## 参考
 
 - [Laravel](https://laravel.com/)
