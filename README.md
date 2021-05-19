@@ -8,7 +8,9 @@ Laravel v8.35.1 (PHP v8.0.3)
 ## サーバ起動
 
 ``` sh
-cd practice-laravel && ./vendor/bin/sail up
+cd practice-laravel 
+composer update
+./vendor/bin/sail up
 ```
 
 ## ルーティング
