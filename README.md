@@ -13,6 +13,14 @@ composer update
 ./vendor/bin/sail up
 ```
 
+## URL
+
+- [http://penguin.linux.test/](http://penguin.linux.test/)
+- [http://penguin.linux.test/index](http://penguin.linux.test/index)
+- [http://localhost/](http://localhost/)
+- [http://localhost/index](http://localhost/index)
+
+
 ## ルーティング
 
 修正対象ファイルは下記。  
@@ -143,6 +151,12 @@ tail -f ./storage/logs/laravel.log
 ### 参考
 
 - [Laravelで始める依存性の注入（DI）:Qiita](https://qiita.com/harunbu/items/079ea728d2c9cf4f44d5)
+
+## document
+
+phpDocumentorの実行結果
+
+- [./practice-laravel/document/index.html](./practice-laravel/document/index.html)
 
 ## 参考
 
