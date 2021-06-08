@@ -23,10 +23,10 @@ composer update
 
 ## ルーティング
 
-修正対象ファイルは下記。  
+修正対象ファイルは下記。
 ./routes/web.php
 
-``` php : ./routes/web.php
+``` php
 use Illuminate\Support\Facades\Route;
 
 Route::get('/users', function () {
@@ -156,7 +156,8 @@ tail -f ./storage/logs/laravel.log
 
 phpDocumentorの実行結果
 
-- [./practice-laravel/document/index.html](./practice-laravel/document/index.html)
+- [https://sampleuser0001.github.io/Practice_Laravel/practice-laravel/document/index.html](https://sampleuser0001.github.io/Practice_Laravel/practice-laravel/document/index.html)
+
 
 ## 参考
 
