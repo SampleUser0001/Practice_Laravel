@@ -12,4 +12,6 @@ interface RollableDice
   public function roll(): int;
 }
 
-?>
+/*
+Deliverable	hoge
+*/
