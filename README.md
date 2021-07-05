@@ -9,6 +9,8 @@ Laravel v8.35.1 (PHP v8.0.3)
 
 ``` sh
 cd practice-laravel 
+# 初回のみ.envファイルとキーの生成が必要。
+cp .env.sample .env
 composer update
 ./vendor/bin/sail up
 ```

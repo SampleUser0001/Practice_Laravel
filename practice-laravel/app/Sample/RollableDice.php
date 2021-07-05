@@ -15,3 +15,4 @@ interface RollableDice
 /*
 Deliverable	hoge
 */
+
